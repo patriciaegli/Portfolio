@@ -49,8 +49,8 @@ p {
   font-size: 24px;
 }
 
-.content {
-  padding: 160px 24px;
+.content-container {
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -98,6 +98,18 @@ p {
   padding: 120px 60px 0;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
