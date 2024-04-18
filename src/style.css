@@ -35,7 +35,7 @@ p {
 .start {
   background-color: var(--secondry-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .start p {
@@ -166,11 +166,6 @@ footer .social-liks a:hover {
     font-size: 18px;
   }
 
-
-  .start {
-    padding: 80px 20px;
-  }
-
   .content {
     text-align: center;
     padding: 0;
@@ -179,6 +174,4 @@ footer .social-liks a:hover {
     padding: 0;
     text-align: center;
   }
-
-
 }
