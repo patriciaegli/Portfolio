@@ -23,6 +23,9 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-weight: normal;
@@ -115,6 +118,15 @@ footer {
   margin: 60px 0;
 }
 
+footer .contact-box {
+  background-color: var(--secondry-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   text-align: center;
@@ -132,13 +144,15 @@ footer .social-links a {
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
+
 footer .social-liks a:hover {
   color: white;
   background: var(--branding-color);
 }
 
- @media (max-width: 960px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -147,6 +161,11 @@ footer .social-liks a:hover {
   h2 {
     font-size: 44px;
   }
+
+  h4 {
+    font-size: 18px;
+  }
+
 
   .start {
     padding: 80px 20px;
@@ -160,4 +179,6 @@ footer .social-liks a:hover {
     padding: 0;
     text-align: center;
   }
+
+
 }
